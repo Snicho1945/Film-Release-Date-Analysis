@@ -1,9 +1,9 @@
 # Final_Project
 ## Roles
--Presentation: Jeff
--Database: Pam
--Machine Learning: Matthew
--Dashboard: Steven
+  -Presentation: Jeff
+  -Database: Pam
+  -Machine Learning: Matthew
+  -Dashboard: Steven
 
 ## Release Date for Movies based on Machine Learning
 The purpose of this collaboration project is to determine the optimal release dates for movies based on the time of year and genre.
