@@ -10,7 +10,7 @@ I've pushed several files to my branch.
   - The "genres" column is converted from a list of dictionaries to 11 columns representing the 10 genres plus an "others' column.  If the genre is in the "genres" column, its corresponding column is marked True.
   -  The "spoken_languages" column is converted from a list of dictionaries to a count of languages for that movie.
   - Coding started for unpacking the "production_companies" column.  We think this will be one of the most important columns in the database.
-3. Google Colab has the code to connect to the database on AWS. Here's the link:
+4. Google Colab has the code to connect to the database on AWS. Here's the link:
 https://colab.research.google.com/drive/13_1UyDf0L24geuSm_P4nfJNhYh0hSisM?usp=sharing
 
 Our database can be seen here on pgAdmin:
