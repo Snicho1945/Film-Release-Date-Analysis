@@ -2,7 +2,8 @@
 ## Segement 1
 ### Circle Role (DB) Notes
 I've pushed several files to my branch.
-1. Movies_ERD_2.PNG is a diagram of the downloaded movie files and how they relate to one another. I'll update this diagram as the database develops.
+1. MoviesERD_2.PNG is a diagram of the downloaded movie files and how they relate to one another. I'll update this diagram as the database develops.
+![](MoviesERD_2.PNG)
 2. Resources/movies_erd_code.txt is the code used to build the ERD in QuickDB
 3. clean_movie_metadata.ipynb is a notebook with several of the columns cleaned up for loading to the database which is hosted on AWS. We will be dropping many of these columns as they are not relevant to our project goal.  I will update as we work through which columns are needed.
   - The "belongs_to_collection" was converted from a dictionary to a boolean.  If there is data in that column for a row, it is assigned True.  Otherwise, it is False.
