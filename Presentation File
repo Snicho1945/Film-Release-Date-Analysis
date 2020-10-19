@@ -1,0 +1,26 @@
+Final Project Summary:
+Film release Date recommendations for 2021
+
+Pam Hamrick
+Steven Nichols
+Matthew Tichenor
+Jeff Hastings
+
+Why?
+The COVID-19 Pandemic has changed the movie industry.  
+Major Theater chains have decided to close until further notice
+Studios have held back many projects or releasing them direct to consumer without every going to theater
+Studios have more content than there are dates available to accommodate new releases
+Studios and Theaters need guidance to maximize the titles performance 
+Domestic Box Office
+Award Season
+Licensing 
+
+Description of Source Data
+Utilize IMDB MetaData to explore the relationship of genre, production budget, talent have to the release date of the film
+Incorporate ratings, keywords and credits to determine optimal release dates of future projects to maximize projects maximum potential from ticket sales and post theatrical revenue streams.
+
+What we hope to answer
+What is the optimum street date for a particular film
+Identify comparable titles that performed well whilst others did not
+Identify what other variables influenced comparable 
