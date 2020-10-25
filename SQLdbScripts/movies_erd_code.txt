@@ -3,46 +3,57 @@
 movies_metadata
 -
 id PK varchar
-imdb_id  int 
+title varchar
+original_title varchar
+status varchar
+release_date date
+company varchar
+revenue bigint
+budget  bigint
 adult boolean
 belongs_to_collection boolean 
-budget NULL bigint
-genres NULL JSONB
-homepage NULL varchar
-original_language NULL varchar
-original_title varchar
-overview NULL varchar
+original_language varchar
 popularity decimal
-revenue bigint
+country varchar
 runtime int
-status varchar
-tagline rchar
-title varchar
+spoken_languages int
+tagline varchar
 video boolean
 vote_average decimal
 vote_count int
-Drama bollean
-Comedy boolean
-Thriller boolean
-Romance boolean
-Action boolean
-Horror boolean
-Crime boolean
-Documentary boolean
-Adventure boolean
-ScienceFiction boolean
-Others boolean
-release_date date
-spoken_languages int
 
 
+
+genres
+-
+movieId PK varchar FK - movies_metadata.id
+drama boolean
+comedy boolean
+thriller boolean
+romance boolean
+action boolean
+horror boolean
+crime boolean
+documentary boolean
+adventure boolean
+science_fiction boolean
+family boolean
+mystery boolean
+fantasy boolean
+animation boolean
+foreign boolean
+music boolean
+history boolean
+war boolean
+western boolean
+tv_movie boolean
+others boolean
 
 links
 -
-imdbId NULL  int
+imdbId  int
 movieId PK varchar FK - movies_metadata.id
-tmdbid NULL varchar
-
+tmdbid  varchar
 
 credits
 -
@@ -52,7 +63,7 @@ crew varchar
 
 keywords
 -
-id  int FK >- movies_metadata.id
+id  int PK FK - movies_metadata.id
 keywords varchar
 
 ratings
