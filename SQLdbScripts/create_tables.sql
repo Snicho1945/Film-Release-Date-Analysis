@@ -67,7 +67,7 @@ CREATE TABLE "links" (
 );
 
 CREATE TABLE "credits" (
-    "id" int   NOT NULL,
+    "id" varchar   NOT NULL,
     "cast" varchar   NOT NULL,
     "crew" varchar   NOT NULL,
     CONSTRAINT "pk_credits" PRIMARY KEY (
