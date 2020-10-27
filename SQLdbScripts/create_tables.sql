@@ -12,11 +12,10 @@ CREATE TABLE "movies_metadata" (
     "release_date" date   NOT NULL,
     "company" varchar   NOT NULL,
     "revenue" bigint   NOT NULL,
-    "budget" bigint   NULL,
+    "budget" bigint   NOT NULL,
     "adult" boolean   NOT NULL,
     "belongs_to_collection" boolean   NOT NULL,
-    "original_language" varchar   NULL,
-    "overview" varchar   NULL,
+    "original_language" varchar   NOT NULL,
     "popularity" decimal   NOT NULL,
     "country" varchar   NOT NULL,
     "runtime" int   NOT NULL,
@@ -59,16 +58,17 @@ CREATE TABLE "genres" (
 );
 
 CREATE TABLE "links" (
-    "imdbId" int   NULL,
+    "imdbId" int   NOT NULL,
     "movieId" varchar   NOT NULL,
-    "tmdbid" varchar   NULL,
+    "tmdbid" varchar   NOT NULL,
+
     CONSTRAINT "pk_links" PRIMARY KEY (
         "movieId"
      )
 );
 
 CREATE TABLE "credits" (
-    "id" int   NOT NULL,
+    "id" varchar   NOT NULL,
     "cast" varchar   NOT NULL,
     "crew" varchar   NOT NULL,
     CONSTRAINT "pk_credits" PRIMARY KEY (
@@ -77,8 +77,11 @@ CREATE TABLE "credits" (
 );
 
 CREATE TABLE "keywords" (
-    "id" int   NOT NULL,
-    "keywords" varchar   NOT NULL
+    "id" varchar   NOT NULL,
+    "keywords" varchar   NOT NULL,
+    CONSTRAINT "pk_keywords" PRIMARY KEY (
+        "id"
+     )
 );
 
 CREATE TABLE "ratings" (

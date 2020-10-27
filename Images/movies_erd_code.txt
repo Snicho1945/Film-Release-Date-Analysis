@@ -3,7 +3,6 @@
 movies_metadata
 -
 id PK varchar
-<<<<<<< HEAD
 adult boolean
 belongs_to_collection boolean 
 budget NULL bigint
@@ -23,26 +22,6 @@ vote_count int
 release_date date
 spoken_languages int
 
-=======
-title varchar
-original_title varchar
-status varchar
-release_date date
-company varchar
-revenue bigint
-budget  bigint
-adult boolean
-belongs_to_collection boolean 
-original_language varchar
-popularity decimal
-country varchar
-runtime int
-spoken_languages int
-tagline varchar
-video boolean
-vote_average decimal
-vote_count int
->>>>>>> PAMDB
 
 genres
 -
@@ -71,16 +50,10 @@ others boolean
 
 links
 -
-<<<<<<< HEAD
 imdbId NULL  int
 movieId PK varchar FK - movies_metadata.id
 tmdbid NULL varchar
 
-=======
-imdbId  int
-movieId PK varchar FK - movies_metadata.id
-tmdbid  varchar
->>>>>>> PAMDB
 
 credits
 -
@@ -90,11 +63,7 @@ crew varchar
 
 keywords
 -
-<<<<<<< HEAD
 id  int FK >- movies_metadata.id
-=======
-id  int PK FK - movies_metadata.id
->>>>>>> PAMDB
 keywords varchar
 
 ratings
