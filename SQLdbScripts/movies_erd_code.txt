@@ -22,8 +22,6 @@ video boolean
 vote_average decimal
 vote_count int
 
-
-
 genres
 -
 movieId PK varchar FK - movies_metadata.id

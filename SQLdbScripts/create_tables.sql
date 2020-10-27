@@ -61,6 +61,7 @@ CREATE TABLE "links" (
     "imdbId" int   NOT NULL,
     "movieId" varchar   NOT NULL,
     "tmdbid" varchar   NOT NULL,
+
     CONSTRAINT "pk_links" PRIMARY KEY (
         "movieId"
      )
