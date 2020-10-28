@@ -1,7 +1,13 @@
 # Final_Project
 ## Segment 2
 ### Database Notes
-Because we wanted to use Jupyter Notebook instead of Google Colab, we have changed the way we access the database by using psycopg2 and setting cursors to hold the data within Jupyter Notebook. The  connection string and sample cursor/SQL code can be found in the connect_to_db.ipynb file. In order to fetch from the cursor, Jupyter Notebook had to be started with this command:
+The updated ERD:
+
+![](Images/MoviesERD_4.PNG)
+
+Because we wanted to use Jupyter Notebook instead of Google Colab, we have changed the way we access the database by using psycopg2 and setting cursors to hold the data within Jupyter Notebook. The  connection string and sample cursor/SQL code can be found in the connect_to_db.ipynb file. 
+
+In order to fetch from the cursor, Jupyter Notebook had to be started with this command:
 
 jupyter notebook --NotebookApp.iopub_data_rate_limit=2147483647
 
