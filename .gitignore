@@ -1,9 +1,5 @@
 # added by pam
-<<<<<<< HEAD
-.csv
-=======
 *.csv
->>>>>>> PAMDB
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
