@@ -3,7 +3,7 @@
 ### Database Notes
 The updated ERD:
 
-![](Images/MoviesERD_2.PNG)
+![](Images/MoviesERD_4.PNG)
 
 Because we wanted to use Jupyter Notebook instead of Google Colab, we have changed the way we access the database by using psycopg2 and setting cursors to hold the data within Jupyter Notebook. The  connection string and sample cursor/SQL code can be found in the connect_to_db.ipynb file. 
 
