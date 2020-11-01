@@ -8,22 +8,22 @@ CREATE TABLE "movies_metadata" (
     "id" varchar   NOT NULL,
     "title" varchar   NOT NULL,
     "original_title" varchar   NOT NULL,
-    "status" varchar   NOT NULL,
+    "status" varchar,
     "release_date" date   NOT NULL,
-    "company" varchar   NOT NULL,
+    "company" varchar,
     "revenue" bigint   NOT NULL,
     "budget" bigint   NOT NULL,
     "adult" boolean   NOT NULL,
     "belongs_to_collection" boolean   NOT NULL,
     "original_language" varchar   NOT NULL,
     "popularity" decimal   NOT NULL,
-    "country" varchar   NOT NULL,
-    "runtime" int   NOT NULL,
+    "country" varchar,
+    "runtime" numeric,
     "spoken_languages" int   NOT NULL,
-    "tagline" varchar   NOT NULL,
+    "tagline" varchar,
     "video" boolean   NOT NULL,
     "vote_average" decimal   NOT NULL,
-    "vote_count" int   NOT NULL,
+    "vote_count" NUMERIC  NOT NULL,
     CONSTRAINT "pk_movies_metadata" PRIMARY KEY (
         "id"
      )
@@ -61,7 +61,6 @@ CREATE TABLE "links" (
     "imdbId" int   NOT NULL,
     "movieId" varchar   NOT NULL,
     "tmdbid" varchar   NOT NULL,
-
     CONSTRAINT "pk_links" PRIMARY KEY (
         "movieId"
      )
