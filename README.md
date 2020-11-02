@@ -9,12 +9,13 @@
 - The **Presentation** is a work-in-progress that is being updated as the project changes and grows.  
 [Click here for the presentation.](https://docs.google.com/presentation/d/1Hq-Y0TJ5y4ZmTBVe_Reaw9OvmiGiBZfVirvh4pVBBxY/edit?usp=sharing)
 
-- **Database:** Updates since last segment are documented here:
+- **Database:** 
+     Updates since last segment are documented in segment2-Notes.md:
 
-      segment2-Notes.md
+     [Click here](https://github.com/Snicho1945/Final_Project/blob/main/segment2-Notes.md)
 
-- **Machine Learning** - [Click here for data analysis](Machine_learning_model.docx)
-The code can be found in 
+
+- **Machine Learning** - Machine_learning_model.docx contains the description of the data analysis. The code can be found in 
 
       1. Linear_Regression_Analysis.ipynb
  
