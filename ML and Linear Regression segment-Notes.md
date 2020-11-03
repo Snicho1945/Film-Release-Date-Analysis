@@ -1,4 +1,4 @@
- #linear Regression Analysis File description
+ # linear Regression Analysis File description
 
 We first imported all of the dependencies the analysis needed to run smoothly and then read the data through the data frame. We are focusing on the Revenue of the movies and the budget on how they correlate with the release date. Based on the findings we can tell which movie made the most money based off when it was released. The first chart is the scatter plot showcasing the data based on the revenue and budget. The variables were x=Budget and y =Revenue. The second chart presents to use the linear regression line to help show or the relationship between the revenue and budget. Based on the results we ran a regression score and it came to be .55 which is far off from 1.0. 
 
