@@ -1,15 +1,7 @@
-<<<<<<< HEAD
 AWS RDS
 endpoint: moviesdb.ct0o6q0pbonx.us-east-2.rds.amazonaws.com
 port: 5432
 instance: movies_db
 Master user name: postgres
 Master password: finalproject
-=======
-AWS RDS
-endpoint: moviesdb.ct0o6q0pbonx.us-east-2.rds.amazonaws.com
-port: 5432
-instance: movies_db
-Master user name: postgres
-Master password: finalproject
->>>>>>> main
+
