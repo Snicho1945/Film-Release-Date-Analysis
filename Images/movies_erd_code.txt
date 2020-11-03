@@ -1,0 +1,74 @@
+# The Movies Dataset
+
+movies_metadata
+-
+id PK varchar
+adult boolean
+belongs_to_collection boolean 
+budget NULL bigint
+homepage NULL varchar
+original_language NULL varchar
+original_title varchar
+overview NULL varchar
+popularity decimal
+revenue bigint
+runtime int
+status varchar
+tagline varchar
+title varchar
+video boolean
+vote_average decimal
+vote_count int
+release_date date
+spoken_languages int
+
+
+genres
+-
+movieId PK varchar FK - movies_metadata.id
+drama boolean
+comedy boolean
+thriller boolean
+romance boolean
+action boolean
+horror boolean
+crime boolean
+documentary boolean
+adventure boolean
+science_fiction boolean
+family boolean
+mystery boolean
+fantasy boolean
+animation boolean
+foreign boolean
+music boolean
+history boolean
+war boolean
+western boolean
+tv_movie boolean
+others boolean
+
+links
+-
+imdbId NULL  int
+movieId PK varchar FK - movies_metadata.id
+tmdbid NULL varchar
+
+
+credits
+-
+id PK int FK - movies_metadata.id
+cast varchar
+crew varchar
+
+keywords
+-
+id  int FK >- movies_metadata.id
+keywords varchar
+
+ratings
+-
+userid PK int
+id varchar PK FK >- movies_metadata.id
+rating decimal
+timestamp timestamp
