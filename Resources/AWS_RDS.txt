@@ -4,3 +4,4 @@ port: 5432
 instance: movies_db
 Master user name: postgres
 Master password: finalproject
+
