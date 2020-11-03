@@ -52,8 +52,3 @@ We are using Postgres database hosted on AWS.  We plan to use linear regression 
 ## Release Date for Movies based on Machine Learning
 The purpose of this collaboration project is to determine the optimal release dates for movies based on the time of year and genre.
 This information could help the entertainment industry maximize gains made from movies as well as be an important tool for independent studios lacking a big budget.
-
-## Dashboard
-Creating visuals using Tableau Public. Work in progress. Will get with team members to decide what graphs will be needed.
-[Click here](https://public.tableau.com/profile/steven.nichols#!/vizhome/Book1_16038559606670/CompanyRevenueandPictureCount)
-
