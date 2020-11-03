@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # linear Regression Analysis File description
 
 We first imported all of the dependencies the analysis needed to run smoothly and then read the data through the data frame. We are focusing on the Revenue of the movies and the budget on how they correlate with the release date. Based on the findings we can tell which movie made the most money based off when it was released. The first chart is the scatter plot showcasing the data based on the revenue and budget. The variables were x=Budget and y =Revenue. The second chart presents to use the linear regression line to help show or the relationship between the revenue and budget. Based on the results we ran a regression score and it came to be .55 which is far off from 1.0. 
@@ -15,3 +16,12 @@ Then it helps creates a comprehensive analysis of the consequences along each br
 # Dataframe Visual File
 
 This file was created to read the data frame and showcase a couple of graphs that will paint the picture of the data. In the file, the reader will see bar graphs, heatmaps, and scatter graphs. The bar graphs showcase important column trends that we as a team would like to highlight. the heatmap is showcasing the trends within the statics of the data. Lastly, the scatter chart shows the relationships of the columns that are important for answering the research question.
+=======
+#linear Regression description
+
+We first imported all of the dependencies the analysis needed to run smoothly and then read the data through the data frame. We are focusing on the Revenue of the movies and the budget on how they correlate with the release date. Based on the findings we can tell which movie made the most money based off when it was released. The first chart is the scatter plot showcasing the data based on the revenue and budget. The variables were set as x=Budget and y =Revenue. The second chart presents use the linear regression line to help show the relationship between the revenue and budget. Based on the results we ran a regression score and it came to be .55 which is far off from 1.0. 
+
+#Machine Learning description
+
+The first task is to import all dependencies that will analyze, learn the data, test the data, and plot the results. the variables that the code will be training and analysising is x= Release date and y= revenue. The machine learning model that will be used is Supervised learning. We are going to train the variables and run random forest model code to create many decision trees. These decisions will determine what we should trust based on the tree value and showcase the best data and positive outcomes within the movie entertainment world. Our code will randomness each tree to try to create an uncorrelated forest of trees whose prediction by committee is more accurate than that of any individual tree. The next test the machine learning will conduct is a decision tree to help identify a strategy most likely to reach our conclusion on what movies made the most based on the released data. Through training the variables x (revenue) and y (release date) decision tree will cyle through the data and come up with the analysis and give the result that should be communicated to our shareholder.
+>>>>>>> ceb8df7b9570b7ff4b1ced60aff27e443d822bcf
