@@ -54,13 +54,6 @@ imdbId NULL  int
 movieId PK varchar FK - movies_metadata.id
 tmdbid NULL varchar
 
-
-credits
--
-id PK int FK - movies_metadata.id
-cast varchar
-crew varchar
-
 keywords
 -
 id  int FK >- movies_metadata.id
