@@ -78,5 +78,5 @@ The code can be found in
 - Breakdown of graphs from ML with descriptive text
 - World maps showing a ranking of countries with revenue and movie count, separated
 - Scatter plot with regression
-[Click here](https://public.tableau.com/profile/steven.nichols#!/vizhome/Book1_16038559606670/CompanyRevenueandPictureCount)
+-[Click here](https://public.tableau.com/profile/steven.nichols#!/vizhome/Book1_16038559606670/CompanyRevenueandPictureCount)
 
