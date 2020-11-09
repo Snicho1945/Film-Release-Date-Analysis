@@ -1,6 +1,7 @@
 # Analysis of the Kaggle Movies Dataset 
 ![](Images/wordCloud.png)
-The Data was sourced from Kaggle.com "The Movies Dataset" https://www.kaggle.com/rounakbanik/the-movies-dataset
+
+The Data was sourced from Kaggle.com "The Movies Dataset" https://www.kaggle.com/rounakbanik/the-movies-dataset.
 
 ## Roles
 This project is a collaborative effort amongst cohorts.
