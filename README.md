@@ -18,7 +18,12 @@ This information could help the entertainment industry maximize gains made from 
 Find all the tools used for this project in the [requirements.txt file.](https://github.com/Snicho1945/Final_Project/blob/main/requirements.txt)
 
 ##  **Presentation** 
-The presentation is a work-in-progress that is being updated as the project changes and grows. It has been prepared in Google Slides.  
+The presentation is a work-in-progress that is being updated as the project changes and grows. It has been prepared in Google Slides. The latest version of our presentation now includes images from the Tableau dashboard:
+- Budget vs Revenue by Month
+- By Country Heatmap
+- Revenue by Genre by Month
+- Distribution of films by month
+
 [Click here for the presentation.](https://docs.google.com/presentation/d/1Hq-Y0TJ5y4ZmTBVe_Reaw9OvmiGiBZfVirvh4pVBBxY/edit?usp=sharing)
 
 ## **Database**
