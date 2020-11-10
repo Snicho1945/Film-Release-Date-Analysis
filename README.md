@@ -60,15 +60,27 @@ The "spoken_languages" column was a list of dictionaries.  Some movies had multi
 
 ## **Machine Learning** 
 
-Data Analysis:  We are using movie data to determine the optimal release dates for movies based on the time of year and genre. This information could help the entertainment industry maximize gains made from movies as well as be an important tool for independent studios lacking a big budget. The machine learning model will be utilizing is random forest and decision tree within the scope of supervised learning. 
+![](Images/companyCorrelation.PNG)
 
-The X variable is release _date and the y variable is revenue. With decision tree, we are building the foundation to create our random forest model. When we use the random forest model, we will be coSnstructing a multitude of decision trees that will reflect revenue versus release date to predict the individual trees. With that information we will see movie performance trends based on the analysis results through machine learning.
+### Machine Learning Models
+For the final project we steered away from descision tree and random forest which was the direction the team wanted to test the models in the machine model. The new direction in which we will but the models in will be cross viladation and neural network models. Model 1 and model 2 will ran with cross viladation which is a statistical method used to estimate the skill of machine learning models. The pros of using cross viladation is easy to understand, easy to implement, and results in skill estimates that generally have a lower bias than other methods. The negative side of using this model is that with using Cross Validation the user drastically increases the training time of the model. Earlier you had to train your model only on one training set, but with Cross Validation you have to train your model on multiple training sets. Model 3 we will be using nueral network to focus the machine learning base on the genres and how revenue effect the succes of the genres in our data frame. Nueral network model is a computational learning system that uses a network of functions to understand and translate a data input of one form into a desired output, usually in another form. The pros of using Nueral network is it has the ability to learn by themselves and produce the output that is not limited to the input provided to them. The input of the network is stored in its own networks instead of a database, hence the loss of data does not affect its working. The downside of using this type of machine learning is that it usually require much more data than traditional machine learning algorithms, as in at least thousands if not millions of labeled samples. This isn't an easy problem to deal with and many machine learning problems can be solved well with less data if you use other algorithms.
 
-The code can be found in 
+### Model Scores
+Model scores and how they relate to our test variable
+The data collected in model 1 which looks into the columns in the data frame and test it through the variable revenue. The regression score is 0.5430834757292722 which is a postive result. 
 
-      1. Linear_Regression_Analysis.ipynb
- 
-      2. Project Final Visual.ipynb
+The results when the lasso test running is .5423760475256304 which is close to the regression score and the ridge score is 0.5492908370454095. 
+
+When combining the two and run the elastic net we and we get 0.4731431344863092. All test results are in the same ball park. We can detrimine the revenue can not soley predict the success of the outcome of the movie.
+
+Model two focuses on the variable month and how revenue may effect the success. The regression score is 0.00140294244387984. Though this is a postive interger. We note that this score is less than one and that the month of year truly can not show much how success the movie recieves in revenue.
+
+Model three which is the variable genres and testing how revuene play the regression score is 0.00140294244387984. The lasso score is 0.018623876691926555. Noting that both less than 1 percent the genre still is not a major factor in the succes of the movie.
+
+### Dataframe Visual File
+
+This file was created to read the data frame and showcase a couple of graphs that will paint the picture of the data. In the file, the reader will see bar graphs and scatter graphs. The bar graphs showcase important column trends that we as a team would like to highlight. the heatmap is showcasing the trends within the statics of the data. Lastly, the scatter chart shows the relationships of the columns that are important for answering the research question.
+
 
 
  ## **Dashboard** 
@@ -81,4 +93,6 @@ The code can be found in
 - Breakdown of monthly budget and revenue
 - [Click here for Film Release Date Analysis](https://public.tableau.com/profile/steven.nichols#!/vizhome/FilmReleaseDateAnalysis_16050462264500/FilmReleaseDateAnalysis)
 - [Click here for FRDA Data](https://public.tableau.com/profile/steven.nichols#!/vizhome/FRDAAllData/Action)
+
+
 
