@@ -79,6 +79,6 @@ The code can be found in
       - Correlation Chart
       - Linear regression for Feature vs Revenue
 - Breakdown of monthly budget and revenue
--[Click here for Film Release Date Analysis](https://public.tableau.com/profile/steven.nichols#!/vizhome/FilmReleaseDateAnalysis_16050462264500/FilmReleaseDateAnalysis)
--[Click here for FRDA Data](https://public.tableau.com/profile/steven.nichols#!/vizhome/FRDAAllData/Action)
+- [Click here for Film Release Date Analysis](https://public.tableau.com/profile/steven.nichols#!/vizhome/FilmReleaseDateAnalysis_16050462264500/FilmReleaseDateAnalysis)
+- [Click here for FRDA Data](https://public.tableau.com/profile/steven.nichols#!/vizhome/FRDAAllData/Action)
 
