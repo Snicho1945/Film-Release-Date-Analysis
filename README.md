@@ -74,9 +74,11 @@ The code can be found in
  ## **Dashboard** 
 - Tableau will used for the dashboard 
 - Mosaic chart depicting studio revenue and picture count
-- Graphs depicting movie success by release date with genre
-- Breakdown of graphs from ML with descriptive text
-- World maps showing a ranking of countries with revenue and movie count, separated
-- Scatter plot with regression
--[Click here](https://public.tableau.com/profile/steven.nichols#!/vizhome/Book1_16038559606670/CompanyRevenueandPictureCount)
+- Graph depicting movie success by release date with genre (Top 3)
+- Graphs from Machine Learning
+      - Correlation Chart
+      - Linear regression for Feature vs Revenue
+- Breakdown of monthly budget and revenue
+-[Click here for Film Release Date Analysis](https://public.tableau.com/profile/steven.nichols#!/vizhome/FilmReleaseDateAnalysis_16050462264500/FilmReleaseDateAnalysis)
+-[Click here for FRDA Data](https://public.tableau.com/profile/steven.nichols#!/vizhome/FRDAAllData/Action)
 
