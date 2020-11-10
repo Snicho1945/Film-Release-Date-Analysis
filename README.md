@@ -84,6 +84,8 @@ This file was created to read the data frame and showcase a couple of graphs tha
 
 
  ## **Dashboard** 
+- [Click here for Film Release Date Analysis](https://public.tableau.com/profile/steven.nichols#!/vizhome/FilmReleaseDateAnalysis_16050462264500/FilmReleaseDateAnalysis)
+- [Click here for FRDA Data](https://public.tableau.com/profile/steven.nichols#!/vizhome/FRDAAllData/Action)
 - Tableau will used for the dashboard 
 - Mosaic chart depicting studio revenue and picture count
 - Graph depicting movie success by release date with genre (Top 3)
@@ -91,8 +93,7 @@ This file was created to read the data frame and showcase a couple of graphs tha
       - Correlation Chart
       - Linear regression for Feature vs Revenue
 - Breakdown of monthly budget and revenue
-- [Click here for Film Release Date Analysis](https://public.tableau.com/profile/steven.nichols#!/vizhome/FilmReleaseDateAnalysis_16050462264500/FilmReleaseDateAnalysis)
-- [Click here for FRDA Data](https://public.tableau.com/profile/steven.nichols#!/vizhome/FRDAAllData/Action)
+
 
 
 
