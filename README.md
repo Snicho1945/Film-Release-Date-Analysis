@@ -84,6 +84,8 @@ This file was created to read the data frame and showcase a couple of graphs tha
 
 
  ## **Dashboard** 
+ ![](Images/Story.PNG)
+
 - Our charts, dashboards and story were built in Tableau. [Click here to see the storyboard](https://public.tableau.com/profile/pam.hamrick#!/vizhome/FilmReleaseDateAnalysis/FilmReleaseDateAnalysis?publish=yes). 
 - Tree Map depicting studio revenue and movie count
 - Top 10 Production Company Revenue by Month in pie charts
@@ -94,7 +96,7 @@ This file was created to read the data frame and showcase a couple of graphs tha
 - Correletion chart from the linear regression
 - Features vs Revenue from the linear regression in a horizontal bar chart
 - Resources wrap-up
-- Additional charts not found in the story can be found here:
+- Additional charts not shown in the story can be found here:
 [FRDA Data](https://public.tableau.com/profile/steven.nichols#!/vizhome/FRDAAllData/Action)
 
 
