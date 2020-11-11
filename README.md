@@ -63,25 +63,33 @@ The "spoken_languages" column was a list of dictionaries.  Some movies had multi
 
 ![](Images/companyCorrelation.PNG)
 
-### Machine Learning Models
-For the final project we steered away from descision tree and random forest which was the direction the team wanted to test the models in the machine model. The new direction in which we will but the models in will be cross viladation and neural network models. Model 1 and model 2 will ran with cross viladation which is a statistical method used to estimate the skill of machine learning models. The pros of using cross viladation is easy to understand, easy to implement, and results in skill estimates that generally have a lower bias than other methods. The negative side of using this model is that with using Cross Validation the user drastically increases the training time of the model. Earlier you had to train your model only on one training set, but with Cross Validation you have to train your model on multiple training sets. Model 3 we will be using nueral network to focus the machine learning base on the genres and how revenue effect the succes of the genres in our data frame. Nueral network model is a computational learning system that uses a network of functions to understand and translate a data input of one form into a desired output, usually in another form. The pros of using Nueral network is it has the ability to learn by themselves and produce the output that is not limited to the input provided to them. The input of the network is stored in its own networks instead of a database, hence the loss of data does not affect its working. The downside of using this type of machine learning is that it usually require much more data than traditional machine learning algorithms, as in at least thousands if not millions of labeled samples. This isn't an easy problem to deal with and many machine learning problems can be solved well with less data if you use other algorithms.
+## Dataframe Visual File
 
-### Model Scores
-Model scores and how they relate to our test variable
-The data collected in model 1 which looks into the columns in the data frame and test it through the variable revenue. The regression score is 0.5430834757292722 which is a postive result. 
+This file was created to read the data frame and showcase a couple of graphs that will paint the picture of the data. In the file, the reader will see bar graphs and scatter graphs. The bar graphs showcase important column trends that we as a team would like to highlight. The heatmap is showcasing the trends within the statics of the data. Lastly, the scatter chart shows the relationships of the columns that are important for answering the research question.
 
-The results when the lasso test running is .5423760475256304 which is close to the regression score and the ridge score is 0.5492908370454095. 
+## Top 15 movies file
 
-When combining the two and run the elastic net we and we get 0.4731431344863092. All test results are in the same ball park. We can detrimine the revenue can not soley predict the success of the outcome of the movie.
+This file we are exploring the genres of each movie and how it compares to the features(budget, release date, and reveune) of the dataframe.The top 15 of each genre will be printed in a chart to display the results
 
-Model two focuses on the variable month and how revenue may effect the success. The regression score is 0.00140294244387984. Though this is a postive interger. We note that this score is less than one and that the month of year truly can not show much how success the movie recieves in revenue.
+## Linear Regression Analysis 
 
-Model three which is the variable genres and testing how revuene play the regression score is 0.00140294244387984. The lasso score is 0.018623876691926555. Noting that both less than 1 percent the genre still is not a major factor in the succes of the movie.
+In the engineering process of the Linear regression analysis part of the file, we first must import all of the dependencies for the analysis needs to run smoothly. Connecting the data frame and creating a data frame is the next step.
 
-### Dataframe Visual File
+__Chart #1__ We are focusing on the earnings of the movies and the budget. To see how they correlate with the release date. The first chart is the scatter plot showcasing the data based on the column values of earnings and budget. The variables are X=Budget and y=Revenue. The second chart places the linear regression line to help show the relationship between the money made and the cost-effectiveness of the movies. We ran a regression score, and it came to be .55.
 
-This file was created to read the data frame and showcase a couple of graphs that will paint the picture of the data. In the file, the reader will see bar graphs and scatter graphs. The bar graphs showcase important column trends that we as a team would like to highlight. the heatmap is showcasing the trends within the statics of the data. Lastly, the scatter chart shows the relationships of the columns that are important for answering the research question.
+__Chart #2__ We are focusing on the cost-effectiveness of the movies during the normal calendar year. This will allow us as a team to see how they correlate with one another. The first chart is the scatter plot showcasing the data based on the revenue and month. The variables are X=Month and y =Revenue. In the second chart, we place a linear regression line to help show or the relationship between the month and budget. We ran a regression score, and it came to be 0.001421879656713032.
 
+__Chart #3__ We are focusing on the Release time during the holidays(months 11 and 12) and the money earned during months November and December versus any other time of the year. The first chart is the scatter plot showcasing the data based on the variable's holiday and earnings. The variables are X=Holiday and y=Revenue. In the second chart, we placed a linear regression line to help show or the relationship between the variable's holiday and earnings. We ran a regression score, and it came to be 0.006939319131513466.
+
+__Chart #4__ We are focusing on the Release time and the money earned. The first chart is the scatter plot showcasing the data based on the variables release date and revenue. The variables are X=release date and y=Revenue. In the second chart, we place a linear regression line to help show or the relationship between the variable's release date and earnings. We ran a regression score, and it came to be 0.001421879656713032.
+
+## Machine Learning Analysis File 
+
+The first task is to clean the data. We flirted through the data frame to fit alongside the machine learning model. What we are looking to clean is the data to eliminate skewness and replace missing values and only keep the columns that will help answer the question at hand. As the data frame was being molded it represents a live environment of the data frame. In the analysis, we clean the data to be showcase fair results and showcase values even if the original value was not presented and we replace the value with a zero. So we clean the data all the way through.
+
+The engineering process of this machine learning is to clean the data to what we want to represent within the model and let random forest to make multiple trees off of the set data in the test we create in part 1 and part 2. After confirming the trees we will insert a decision tree to calculate and make a summary. Based on the results we can then run the code through analysis and showcase the data and how it performs and what rating, revenue, and title perform will during its release date. This will show what movie title did the best and made the most money.
+
+We will split the training set into two parts. We will train the data set to look at the release date which is the x variable and let the y variable be revenue. In the next test, we will test the x variable genre and y being the revenue. This will give users a clear sense of what movie is making money base on release date and which genre is more popular during the time of release.
 
  ## **Dashboard** 
  ![](Images/Story.PNG)
