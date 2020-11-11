@@ -3,6 +3,10 @@
 
 The Data was sourced from Kaggle.com "The Movies Dataset" https://www.kaggle.com/rounakbanik/the-movies-dataset.
 
+## Purpose
+Our objective is to determine the optimal release dates for movies based on the time of year and genre.
+This information may help the entertainment industry maximize gains made from movies as well as be an important tool for independent studios lacking a big budget.
+
 ## Roles
 This project is a collaborative effort amongst cohorts.
 
@@ -12,13 +16,10 @@ This project is a collaborative effort amongst cohorts.
       Dashboard: Steven https://github.com/Snicho1945
       Test/Review: All
 
-Our purpose is to determine the optimal release dates for movies based on the time of year and genre.
-This information could help the entertainment industry maximize gains made from movies as well as be an important tool for independent studios lacking a big budget.
-
 Find all the tools used for this project in the [requirements.txt file.](https://github.com/Snicho1945/Final_Project/blob/main/requirements.txt)
 
 ##  **Presentation** 
-The presentation is a work-in-progress that is being updated as the project changes and grows. It has been prepared in Google Slides. The latest version of our presentation now includes images from the Tableau dashboard:
+The presentation has been prepared in Google Slides and includes images from the Tableau dashboard:
 - Budget vs Revenue by Month
 - By Country Heatmap
 - Revenue by Genre by Month
@@ -83,14 +84,18 @@ This file was created to read the data frame and showcase a couple of graphs tha
 
 
  ## **Dashboard** 
-- Tableau will used for the dashboard 
-- Mosaic chart depicting studio revenue and picture count
-- Graphs depicting movie success by release date with genre
+- Our charts, dashboards and story were built in Tableau. [Click here to see the storyboard](https://public.tableau.com/profile/pam.hamrick#!/vizhome/FilmReleaseDateAnalysis/FilmReleaseDateAnalysis?publish=yes). 
+- Tree Map depicting studio revenue and movie count
+- Top 10 Production Company Revenue by Month in pie charts
 - Breakdown of graphs from ML with descriptive text
-- World maps showing a ranking of countries with revenue and movie count, separated
-- Scatter plot with regression
-- Outliers
-- Distribution pie chart 5-10
-- Another scatter plot and regression by genre
-- Synergy graphs need to complement each other
+- Top 3 genres in bar/line charts
+- Movie Count and Revenue per Month in a bar/line chart
+- Budget and Revenue comparison bar chart
+- Correletion chart from the linear regression
+- Features vs Revenue from the linear regression in a horizontal bar chart
+- Resources wrap-up
+- Additional charts not found in the story can be found here:
+[FRDA Data](https://public.tableau.com/profile/steven.nichols#!/vizhome/FRDAAllData/Action)
+
+
 
