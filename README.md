@@ -3,6 +3,10 @@
 
 The Data was sourced from Kaggle.com "The Movies Dataset" https://www.kaggle.com/rounakbanik/the-movies-dataset.
 
+## Purpose
+Our objective is to determine the optimal release dates for movies based on the time of year and genre.
+This information could help the entertainment industry maximize gains made from movies as well as be an important tool for independent studios lacking a big budget.
+
 ## Roles
 This project is a collaborative effort amongst cohorts.
 
@@ -11,9 +15,6 @@ This project is a collaborative effort amongst cohorts.
       Machine Learning: Matthew https://github.com/MatthewTichenor
       Dashboard: Steven https://github.com/Snicho1945
       Test/Review: All
-
-Our purpose is to determine the optimal release dates for movies based on the time of year and genre.
-This information could help the entertainment industry maximize gains made from movies as well as be an important tool for independent studios lacking a big budget.
 
 Find all the tools used for this project in the [requirements.txt file.](https://github.com/Snicho1945/Final_Project/blob/main/requirements.txt)
 
