@@ -92,6 +92,9 @@ This file was created to read the data frame and showcase a couple of graphs tha
 - Budget and Revenue comparison bar chart
 - Correletion chart from the linear regression
 - Features vs Revenue from the linear regression in a horizontal bar chart
-- Resources wrapup
+- Resources wrap-up
+- Additional charts not found in the story can be found here:
+[FRDA Data](https://public.tableau.com/profile/steven.nichols#!/vizhome/FRDAAllData/Action)
+
 
 
